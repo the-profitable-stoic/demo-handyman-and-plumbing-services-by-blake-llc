@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Handyman and plumbing services by Blake LLC",
+    "phone": "16107329449",
+    "category": "handyman",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  "design": {
+    "preset": {
+      "id": "handyman-red-charge",
+      "categoryGroup": "handyman",
+      "name": "Red Charge",
+      "recipeFile": "handyman/red-charge.astro",
+      "colors": {
+        "primary": "#B45309",
+        "primaryDark": "#78350F",
+        "primaryLight": "#ecd4c2",
+        "secondary": "#a24b08",
+        "accent": "#F97316",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#B45309",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "handyman/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Reliable Handyman Services",
+      "heroSubline": "Philadelphia homes deserve expert care. Get trusted handyman and plumbing solutions from Blake LLC.",
+      "aboutTitle": "Your Trusted Philadelphia Handyman",
+      "aboutText": [
+        "Blake LLC started with a simple goal: to provide honest and reliable handyman services to our neighbors in Philadelphia. We understand the unique challenges of maintaining homes in this historic city, from aging rowhouses to modern condos.",
+        "We believe in clear communication, fair pricing, and quality workmanship. Our team is committed to treating your home with the same respect and care as we would our own. We take pride in getting the job done right, the first time.",
+        "Blake LLC is proud to be a part of the Philadelphia community. We actively support local initiatives and strive to build lasting relationships with our clients. When you choose us, you're choosing a neighbor who cares."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team has years of experience handling a wide range of handyman and plumbing tasks."
+        },
+        {
+          "title": "Prompt & Reliable",
+          "description": "We arrive on time and complete projects efficiently, minimizing disruption to your daily life."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "You'll receive a clear and detailed estimate before any work begins, with no hidden fees."
+        },
+        {
+          "title": "Quality Guaranteed",
+          "description": "We stand behind our workmanship and ensure your complete satisfaction."
+        }
+      ],
+      "ctaHeadline": "Get a Free Estimate Today",
+      "ctaSubline": "Let's discuss your project and provide you with a personalized quote."
+    },
+    "services": [
+      {
+        "slug": "general-handyman-services",
+        "name": "General Handyman Services",
+        "shortDescription": "From minor repairs to major renovations, we handle all your home maintenance needs.",
+        "description": "Blake LLC offers a comprehensive range of general handyman services to keep your Philadelphia home in top condition. We understand that maintaining a property, especially older row homes common in neighborhoods like Fishtown and Northern Liberties, can present unique challenges. Our experienced team is equipped to handle everything from patching drywall and fixing leaky faucets to installing new fixtures and assembling furniture.\n\nWe pay close attention to detail and use quality materials to ensure lasting results. Whether you need help with a small repair or a larger home improvement project, we're committed to providing exceptional service and exceeding your expectations. We are equipped to handle the specific needs of Philadelphia homes, including addressing issues caused by the freeze-thaw cycle that can damage masonry and foundations.\n\nOur services include but are not limited to: carpentry, drywall repair, painting, minor plumbing repairs, fixture installation, furniture assembly, and general maintenance tasks. We're here to help you keep your home safe, functional, and beautiful.",
+        "process": [
+          "Step 1: Contact us to discuss your project and schedule a consultation.",
+          "Step 2: We'll provide a detailed estimate and answer any questions you may have.",
+          "Step 3: Our team will arrive on time and complete the work efficiently and professionally.",
+          "Step 4: We'll ensure your complete satisfaction before considering the job complete."
+        ],
+        "benefits": [
+          "Improved home value",
+          "Increased comfort and safety",
+          "Reduced stress and hassle",
+          "Professional and reliable service"
+        ],
+        "faq": [
+          {
+            "question": "Do you offer emergency handyman services?",
+            "answer": "Yes, we understand that some repairs can't wait. We offer emergency handyman services for urgent issues like burst pipes or electrical problems."
+          },
+          {
+            "question": "Are you licensed and insured?",
+            "answer": "Yes, Blake LLC is fully licensed and insured for your protection and peace of mind. We adhere to all local building codes and safety regulations."
+          },
+          {
+            "question": "How do you determine your pricing?",
+            "answer": "Our pricing is based on the scope of the project, the materials required, and the time involved. We provide transparent and detailed estimates before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "plumbing-repairs",
+        "name": "Plumbing Repairs",
+        "shortDescription": "Expert plumbing services for leaks, clogs, and other plumbing issues.",
+        "description": "From dripping faucets to burst pipes, plumbing problems can cause significant damage to your Philadelphia home. Blake LLC provides reliable plumbing repair services to address any issue quickly and efficiently. We understand the importance of prompt action to prevent water damage and costly repairs. Our experienced plumbers are equipped to handle a wide range of plumbing problems, from simple fixes to complex repairs.\n\nWe are familiar with the plumbing systems common in Philadelphia's diverse housing stock, including the older infrastructure often found in areas like South Philly. We can diagnose and repair leaks, clogs, running toilets, and other common plumbing issues. We also offer fixture installation services, including faucets, sinks, toilets, and showers. Our goal is to provide lasting solutions that keep your plumbing system functioning properly.\n\nWe use quality materials and proven techniques to ensure the reliability of our repairs. We also offer preventative maintenance services to help you avoid future plumbing problems. Contact us today for a free estimate on your plumbing repair needs.",
+        "process": [
+          "Step 1: Contact us to describe your plumbing issue.",
+          "Step 2: We'll schedule a convenient time for a plumber to assess the problem.",
+          "Step 3: We'll provide a detailed estimate for the repair.",
+          "Step 4: Our plumber will complete the repair efficiently and professionally."
+        ],
+        "benefits": [
+          "Quick and reliable repairs",
+          "Prevention of water damage",
+          "Improved water efficiency",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "Do you handle emergency plumbing repairs?",
+            "answer": "Yes, we offer 24/7 emergency plumbing services for urgent issues like burst pipes and major leaks."
+          },
+          {
+            "question": "What are some signs of a plumbing problem?",
+            "answer": "Common signs include dripping faucets, running toilets, slow drains, low water pressure, and unexplained increases in your water bill."
+          },
+          {
+            "question": "How can I prevent plumbing problems?",
+            "answer": "Regular maintenance, such as clearing drains and inspecting pipes, can help prevent many plumbing problems. Avoid flushing non-flushable items down the toilet."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless drywall repairs for holes, cracks, and water damage.",
+        "description": "Damaged drywall can detract from the appearance of your Philadelphia home and create potential problems with insulation and structural integrity. Blake LLC offers professional drywall repair services to restore your walls and ceilings to their original condition. Whether you have small holes, cracks, or water damage, our skilled technicians can provide seamless repairs that blend seamlessly with your existing paint and texture.\n\nWe understand the importance of proper preparation and attention to detail when repairing drywall. We carefully assess the damage, prepare the surface, and apply the appropriate patching compounds. We then sand the repaired area smooth and prime it for painting. Our goal is to provide a flawless finish that is virtually undetectable.\n\nWe use quality materials and proven techniques to ensure the durability of our drywall repairs. We also offer painting services to complete the job and restore your walls to their original beauty. Contact us today for a free estimate on your drywall repair needs.",
+        "process": [
+          "Step 1: We assess the drywall damage and determine the best repair method.",
+          "Step 2: We prepare the surface by cleaning and sanding the damaged area.",
+          "Step 3: We apply patching compounds and allow them to dry thoroughly.",
+          "Step 4: We sand the repaired area smooth and prime it for painting."
+        ],
+        "benefits": [
+          "Improved home appearance",
+          "Restored structural integrity",
+          "Prevention of further damage",
+          "Seamless repairs"
+        ],
+        "faq": [
+          {
+            "question": "How do you repair water-damaged drywall?",
+            "answer": "We first address the source of the water leak. Then, we remove the damaged drywall, replace any affected insulation, and install new drywall. We ensure the area is properly sealed to prevent future water damage."
+          },
+          {
+            "question": "Can you match the existing texture of my drywall?",
+            "answer": "Yes, our skilled technicians can match a wide range of drywall textures to ensure a seamless repair."
+          },
+          {
+            "question": "How long does drywall repair take?",
+            "answer": "The time required depends on the extent of the damage. Small repairs can often be completed in a few hours, while larger repairs may take a day or two."
+          }
+        ]
+      },
+      {
+        "slug": "furniture-assembly",
+        "name": "Furniture Assembly",
+        "shortDescription": "Hassle-free furniture assembly for all types of furniture.",
+        "description": "Avoid the frustration and time commitment of assembling furniture yourself. Blake LLC provides professional furniture assembly services for all types of furniture, from beds and dressers to desks and bookshelves. We understand that furniture assembly can be challenging, especially with complex instructions and missing parts. Our experienced technicians are equipped to handle any furniture assembly project quickly and efficiently.\n\nWe carefully unpack the furniture, inventory the parts, and follow the manufacturer's instructions to ensure proper assembly. We also dispose of the packaging materials, leaving your home clean and clutter-free. Whether you're furnishing a new home in Rittenhouse Square or updating your existing furniture in Manayunk, we can help you save time and avoid the stress of furniture assembly.\n\nWe offer competitive pricing and flexible scheduling to meet your needs. Contact us today for a free estimate on your furniture assembly project.",
+        "process": [
+          "Step 1: We unpack the furniture and inventory the parts.",
+          "Step 2: We follow the manufacturer's instructions to assemble the furniture.",
+          "Step 3: We ensure all parts are properly connected and tightened.",
+          "Step 4: We dispose of the packaging materials."
+        ],
+        "benefits": [
+          "Save time and effort",
+          "Avoid frustration",
+          "Ensure proper assembly",
+          "Protect your furniture from damage"
+        ],
+        "faq": [
+          {
+            "question": "What types of furniture do you assemble?",
+            "answer": "We assemble all types of furniture, including beds, dressers, desks, bookshelves, tables, chairs, and outdoor furniture."
+          },
+          {
+            "question": "Do you assemble furniture from IKEA?",
+            "answer": "Yes, we have extensive experience assembling furniture from IKEA and other popular furniture retailers."
+          },
+          {
+            "question": "How long does furniture assembly take?",
+            "answer": "The time required depends on the complexity of the furniture. Simple items can often be assembled in an hour or two, while more complex items may take several hours."
+          }
+        ]
+      },
+      {
+        "slug": "painting-services",
+        "name": "Painting Services",
+        "shortDescription": "Interior and exterior painting services to refresh your home.",
+        "description": "A fresh coat of paint can transform the look and feel of your Philadelphia home. Blake LLC offers professional painting services for both interior and exterior surfaces. We understand the importance of proper preparation and quality materials to achieve a lasting and beautiful finish. Our experienced painters are skilled in all aspects of painting, from surface preparation to application of paint.\n\nWe carefully prepare the surfaces by cleaning, sanding, and priming them as needed. We use high-quality paints and proven techniques to ensure a smooth and even finish. We also protect your furniture and belongings from paint splatters. Whether you're painting a single room or your entire house, we're committed to providing exceptional service and exceeding your expectations. We understand the unique challenges of painting older homes in Philadelphia, including lead paint abatement and the need for specialized primers.\n\nWe offer a wide range of paint colors and finishes to suit your style and preferences. Contact us today for a free estimate on your painting project.",
+        "process": [
+          "Step 1: We prepare the surfaces by cleaning, sanding, and priming them.",
+          "Step 2: We apply the paint using brushes, rollers, or sprayers.",
+          "Step 3: We apply multiple coats of paint as needed.",
+          "Step 4: We clean up the work area and dispose of the painting materials."
+        ],
+        "benefits": [
+          "Improved home appearance",
+          "Increased home value",
+          "Protection from the elements",
+          "Professional and reliable service"
+        ],
+        "faq": [
+          {
+            "question": "Do you offer color consultation services?",
+            "answer": "Yes, we can help you choose the perfect colors for your home."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use high-quality paints from reputable brands."
+          },
+          {
+            "question": "How long does a painting project take?",
+            "answer": "The time required depends on the size of the project and the number of coats of paint required."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation",
+        "shortDescription": "Professional installation of light fixtures, faucets, and other home fixtures.",
+        "description": "Upgrading your home fixtures can enhance its style, functionality, and energy efficiency. Blake LLC provides professional fixture installation services for light fixtures, faucets, ceiling fans, and other home fixtures. We understand the importance of proper installation to ensure safety and performance. Our experienced technicians are equipped to handle a wide range of fixture installation projects.\n\nWe carefully remove the old fixtures and install the new ones according to the manufacturer's instructions. We also ensure that all electrical and plumbing connections are properly made. Whether you're replacing a light fixture in your dining room or installing a new faucet in your kitchen, we can help you get the job done right. We are familiar with the local building codes and regulations in Philadelphia and ensure that all installations meet these requirements.\n\nWe offer competitive pricing and flexible scheduling to meet your needs. Contact us today for a free estimate on your fixture installation project.",
+        "process": [
+          "Step 1: We remove the old fixture.",
+          "Step 2: We install the new fixture according to the manufacturer's instructions.",
+          "Step 3: We make all necessary electrical or plumbing connections.",
+          "Step 4: We test the fixture to ensure it is working properly."
+        ],
+        "benefits": [
+          "Improved home appearance",
+          "Increased home value",
+          "Enhanced functionality",
+          "Safe and reliable installation"
+        ],
+        "faq": [
+          {
+            "question": "Do you install ceiling fans?",
+            "answer": "Yes, we install ceiling fans of all types and sizes."
+          },
+          {
+            "question": "Do you install smart home fixtures?",
+            "answer": "Yes, we can install smart thermostats, smart lighting, and other smart home fixtures."
+          },
+          {
+            "question": "What if I don't have the necessary tools?",
+            "answer": "We provide all the necessary tools and equipment for the installation."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Philadelphia",
+        "slug": "philadelphia-pa",
+        "state": "PA",
+        "content": "Handyman and Plumbing Services by Blake LLC is proud to serve the vibrant city of Philadelphia. From historic homes in Old City to modern apartments in Center City, we offer a wide range of handyman and plumbing solutions to meet the diverse needs of Philadelphia residents. We understand the unique challenges of maintaining properties in this historic urban environment, and we are committed to providing reliable, efficient, and affordable services.\n\nOur team of experienced professionals is equipped to handle any job, big or small. Whether you need a leaky faucet repaired, a new toilet installed, or a complete kitchen remodel, we have the skills and expertise to get the job done right. We are dedicated to providing exceptional customer service and ensuring your complete satisfaction.",
+        "localContext": "Philadelphia is a city steeped in history and culture, known for its diverse neighborhoods and passionate sports fans.",
+        "nearbyAreas": [
+          "Camden",
+          "Upper Darby",
+          "Bala Cynwyd"
+        ]
+      },
+      {
+        "city": "Upper Darby",
+        "slug": "upper-darby-pa",
+        "state": "PA",
+        "content": "Handyman and Plumbing Services by Blake LLC extends its services to the diverse community of Upper Darby. We understand the needs of homeowners in this bustling township, offering a comprehensive range of handyman and plumbing solutions to address any issue. Whether it's routine maintenance, emergency repairs, or home improvement projects, we're here to help.\n\nWe pride ourselves on our prompt and reliable service, ensuring that your home is in top condition. Our team is committed to delivering quality workmanship and exceptional customer service to every Upper Darby resident we serve.",
+        "localContext": "Upper Darby is a vibrant and diverse township known for its strong sense of community and convenient access to Philadelphia.",
+        "nearbyAreas": [
+          "Philadelphia",
+          "Drexel Hill",
+          "Clifton Heights"
+        ]
+      },
+      {
+        "city": "Bala Cynwyd",
+        "slug": "bala-cynwyd-pa",
+        "state": "PA",
+        "content": "Handyman and Plumbing Services by Blake LLC is pleased to offer our expert services to the residents of Bala Cynwyd. We cater to the unique needs of this community, providing a wide array of handyman and plumbing solutions for homes of all sizes and styles. From minor repairs to major renovations, we are dedicated to ensuring your home is in excellent condition.\n\nWe understand the importance of quality workmanship and reliable service, and we are committed to exceeding your expectations. Our team of skilled professionals is equipped to handle any project with precision and care, ensuring your complete satisfaction.",
+        "localContext": "Bala Cynwyd is an affluent suburb of Philadelphia known for its excellent schools and beautiful residential areas.",
+        "nearbyAreas": [
+          "Philadelphia",
+          "Wynnewood",
+          "Narberth"
+        ]
+      },
+      {
+        "city": "Camden",
+        "slug": "camden-nj",
+        "state": "NJ",
+        "content": "Handyman and Plumbing Services by Blake LLC proudly serves the city of Camden, NJ, offering a wide range of handyman and plumbing solutions to homeowners and businesses alike. We understand the diverse needs of this community and are committed to providing reliable and affordable services to address any issue.\n\nFrom routine maintenance to emergency repairs, our team of experienced professionals is equipped to handle any job, big or small. We are dedicated to providing exceptional customer service and ensuring your complete satisfaction. We are also fully licensed and insured, so you can rest assured that your property is in good hands.",
+        "localContext": "Camden is a city undergoing revitalization, known for its waterfront attractions and growing business community.",
+        "nearbyAreas": [
+          "Philadelphia",
+          "Gloucester City",
+          "Pennsauken"
+        ]
+      },
+      {
+        "city": "Drexel Hill",
+        "slug": "drexel-hill-pa",
+        "state": "PA",
+        "content": "Handyman and Plumbing Services by Blake LLC is dedicated to providing top-notch handyman and plumbing services to the residents of Drexel Hill, PA. We understand the importance of maintaining a safe and functional home, and we offer a comprehensive range of solutions to address any issue. Whether it's a leaky faucet, a broken window, or a complete bathroom remodel, we're here to help.\n\nOur team of skilled professionals is committed to providing exceptional customer service and quality workmanship. We take pride in our attention to detail and our commitment to ensuring your complete satisfaction. We strive to exceed your expectations with every project we undertake.",
+        "localContext": "Drexel Hill is a suburban community known for its family-friendly atmosphere and convenient access to Philadelphia.",
+        "nearbyAreas": [
+          "Upper Darby",
+          "Springfield",
+          "Havertown"
+        ]
+      },
+      {
+        "city": "Wynnewood",
+        "slug": "wynnewood-pa",
+        "state": "PA",
+        "content": "Handyman and Plumbing Services by Blake LLC offers premium handyman and plumbing services to the discerning residents of Wynnewood, PA. We understand the high standards of this community and are committed to providing exceptional service and quality workmanship. From routine maintenance to complex repairs, we are equipped to handle any project with precision and care.\n\nWe pride ourselves on our attention to detail and our commitment to exceeding your expectations. Our team of skilled professionals is dedicated to ensuring your complete satisfaction. We use only the highest quality materials and the latest techniques to ensure lasting results.",
+        "localContext": "Wynnewood is an affluent suburb of Philadelphia known for its beautiful homes and prestigious schools.",
+        "nearbyAreas": [
+          "Bala Cynwyd",
+          "Ardmore",
+          "Haverford"
+        ]
+      },
+      {
+        "city": "Narberth",
+        "slug": "narberth-pa",
+        "state": "PA",
+        "content": "Handyman and Plumbing Services by Blake LLC is pleased to serve the charming borough of Narberth, PA. We offer a comprehensive range of handyman and plumbing services to meet the needs of this close-knit community. Whether you need a leaky pipe repaired, a new light fixture installed, or a complete kitchen renovation, we are here to help.\n\nWe understand the importance of reliable and trustworthy service, and we are committed to providing exceptional customer service and quality workmanship. Our team of experienced professionals is dedicated to ensuring your complete satisfaction. We are also fully licensed and insured, so you can rest assured that your property is in good hands.",
+        "localContext": "Narberth is a small, walkable borough known for its vibrant downtown and strong sense of community.",
+        "nearbyAreas": [
+          "Bala Cynwyd",
+          "Penn Valley",
+          "Ardmore"
+        ]
+      },
+      {
+        "city": "Haverford",
+        "slug": "haverford-pa",
+        "state": "PA",
+        "content": "Handyman and Plumbing Services by Blake LLC extends its expert services to the Township of Haverford, PA. We understand the needs of homeowners in this area and offer a comprehensive range of handyman and plumbing solutions to address any issue. From routine maintenance and repair to larger home improvement projects, we are committed to providing reliable service.\n\nWe pride ourselves on our prompt response times and our commitment to quality workmanship. Our team is dedicated to delivering exceptional customer service to every Haverford resident we serve.",
+        "localContext": "Haverford is a suburban community known for its beautiful parks and historic landmarks.",
+        "nearbyAreas": [
+          "Bryn Mawr",
+          "Ardmore",
+          "Wynnewood"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Plumbing Repair",
+        "text": "Blake fixed a leaky pipe under my sink quickly and efficiently. He was very professional and explained everything clearly. Highly recommend!",
+        "date": "2024-10-27"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Drywall Repair",
+        "text": "Had a hole in my drywall from a mishap moving furniture. Blake's team patched it up perfectly, you can't even tell there was ever damage. Great job!",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Furniture Assembly",
+        "text": "IKEA furniture is always a nightmare for me. Blake assembled a dresser and bed frame in no time. So glad I called them!",
+        "date": "2024-12-03"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "General Handyman Services",
+        "text": "Blake helped me with a variety of small repairs around my house, including fixing a loose doorknob and patching some cracks in the walls. He was very thorough and paid attention to detail.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Amy S.",
+        "rating": 4,
+        "service": "Painting Services",
+        "text": "Blake's team painted my living room and did a fantastic job. The color looks great, and the finish is smooth and even. Very happy with the results.",
+        "date": "2025-02-22"
+      },
+      {
+        "name": "Robert C.",
+        "rating": 5,
+        "service": "Fixture Installation",
+        "text": "Blake installed a new ceiling fan in my bedroom. He was very careful and made sure everything was working properly. I'm very pleased with the service.",
+        "date": "2025-03-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Philly Handyman | Blake LLC",
+        "description": "Trusted Handyman & Plumbing Services in Philadelphia, PA. Repairs, installations, & more. Free Estimates!"
+      },
+      "about": {
+        "title": "About Blake LLC | Philadelphia Handyman",
+        "description": "Learn about Blake LLC, your local Philadelphia handyman. Honest, reliable, and committed to quality workmanship."
+      },
+      "services": {
+        "title": "Handyman Services | Blake LLC",
+        "description": "Comprehensive handyman & plumbing services in Philadelphia. Repairs, installations, drywall, painting & more."
+      },
+      "contact": {
+        "title": "Contact Blake LLC | Philadelphia PA",
+        "description": "Contact Blake LLC for handyman & plumbing services in Philadelphia, PA. Get a free estimate today!"
+      },
+      "reviews": {
+        "title": "Blake LLC Reviews | Philadelphia PA",
+        "description": "Read reviews from satisfied customers of Blake LLC in Philadelphia. See why we're the trusted choice for handyman services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Blake LLC",
+        "description": "Blake LLC provides handyman and plumbing services in Philadelphia and surrounding areas. Check if we serve your neighborhood!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "general-handyman-services": "/images/service-general-handyman-services.webp",
+      "plumbing-repairs": "/images/service-plumbing-repairs.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "furniture-assembly": "/images/service-furniture-assembly.webp",
+      "painting-services": "/images/service-painting-services.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp"
+    },
+    "servicesResponsive": {
+      "general-handyman-services": {
+        "src": "/images/service-general-handyman-services.webp",
+        "srcset": "/images/service-general-handyman-services-400w.webp 400w, /images/service-general-handyman-services-800w.webp 800w, /images/service-general-handyman-services-1200w.webp 1200w, /images/service-general-handyman-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "plumbing-repairs": {
+        "src": "/images/service-plumbing-repairs.webp",
+        "srcset": "/images/service-plumbing-repairs-400w.webp 400w, /images/service-plumbing-repairs-800w.webp 800w, /images/service-plumbing-repairs-1200w.webp 1200w, /images/service-plumbing-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "furniture-assembly": {
+        "src": "/images/service-furniture-assembly.webp",
+        "srcset": "/images/service-furniture-assembly-400w.webp 400w, /images/service-furniture-assembly-800w.webp 800w, /images/service-furniture-assembly-1200w.webp 1200w, /images/service-furniture-assembly.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "painting-services": {
+        "src": "/images/service-painting-services.webp",
+        "srcset": "/images/service-painting-services-400w.webp 400w, /images/service-painting-services-800w.webp 800w, /images/service-painting-services-1200w.webp 1200w, /images/service-painting-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}

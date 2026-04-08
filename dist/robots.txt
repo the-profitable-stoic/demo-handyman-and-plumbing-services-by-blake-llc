@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-handyman-and-plumbing-services-by-blake-llc.dream-surge.com/sitemap-index.xml
